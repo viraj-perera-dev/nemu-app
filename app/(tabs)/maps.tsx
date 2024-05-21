@@ -2,10 +2,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function explore() {
+export default function Maps() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Explore Page</Text>
+      <Text style={styles.text}>Maps Page</Text>
     </View>
   );
 }
