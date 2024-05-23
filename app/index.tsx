@@ -1,14 +1,11 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
 import { WebView } from 'react-native-webview';
+import { StyleSheet, View } from 'react-native';
 
-export default function HomeScreen() {
+export default function Index() {
   return (
     <View style={styles.container}>
-      <WebView 
-        source={{ uri: 'https://menu.nemuapp.it/menu/661b65b05a951a7f96968200/' }} 
-        style={styles.webview} 
-      />
+      <WebView source={{ uri: 'https://menu.nemuapp.it/menu/661b65b05a951a7f96968200/' }} style={styles.webview} />
     </View>
   );
 }
@@ -16,6 +13,8 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop:20,
+    backgroundColor:'#000',
   },
   webview: {
     flex: 1,
