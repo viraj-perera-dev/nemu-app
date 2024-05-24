@@ -2,6 +2,7 @@
   "expo": {
     "name": "nemù",
     "slug": "nemu-app",
+    "description": "Nemù app description",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +14,15 @@
       "backgroundColor": "#272727"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "nemu.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#272727"
-      }
+      },
+      "package": "nemu.app"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +34,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9da35b1e-3dc3-4226-9780-a27667c5496b"
+      }
+    },
+    "owner": "virajdev",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9da35b1e-3dc3-4226-9780-a27667c5496b"
     }
   }
 }
