@@ -5,7 +5,7 @@ import { StyleSheet, View } from 'react-native';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <WebView source={{ uri: 'https://menu.nemuapp.it/menu/661b65b05a951a7f96968200/' }} style={styles.webview} />
+      <WebView source={{ uri: 'https://menu.nemuapp.it/' }} style={styles.webview} />
     </View>
   );
 }
